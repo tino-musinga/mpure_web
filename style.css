@@ -5,6 +5,7 @@
 
 body {
     background-color: aquamarine; /* this is where you can use backgroundimage or video background effects*/
+    width: 100%;
 }
 
 nav {
@@ -64,3 +65,40 @@ nav ul li a:hover {
     background-color: white;
     border-radius: 0px 0px 5px 5px;
 }
+
+.vid {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    
+}
+
+.name {
+   text-align: left;
+    float: left;
+    margin-left: 10em;
+    position:absolute;
+}
+
+img{
+    width: 20em;
+    float: right;
+    margin-right: 18em;
+}
+
+.bio {
+    width: 30em;
+    margin-left: 10em;
+}
+
+
+
+.brownpara {
+    
+    width: 80em;
+    margin-left: 10em;
+}
+
